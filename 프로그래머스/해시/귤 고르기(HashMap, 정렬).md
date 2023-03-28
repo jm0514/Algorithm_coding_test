@@ -45,6 +45,14 @@ class Solution {
     list.sort(new Comparator<Integer>(){
         @Override
         public int compare(Integer o1, Integer o2){
+        return map.get(o2) - map.get(o1);
+        }
+    });
+```
+```java
+    list.sort(new Comparator<Integer>(){
+        @Override
+        public int compare(Integer o1, Integer o2){
         return map.get(o2).compareTo(map.get(o1));
         }
     });
