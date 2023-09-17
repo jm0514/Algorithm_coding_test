@@ -5,6 +5,7 @@ import java.io.*;
 
 class Main {
     static char[] ch1, ch2;
+    // 시간 초과 문제로 배열을 Integer로 만들었다.
     static Integer[][] dp;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
